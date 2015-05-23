@@ -22,9 +22,9 @@ A Gitblit federation is a mechanism to clone repositories and keep them in sync 
 
 
 ## Origin Gitblit Instance Requirements
-•	git.enableGitServlet must be true, all Git clone and pull requests are handled through Gitblit's JGit servlet
-•	federation.passphrase must be non-empty
-•	The Gitblit origin instance must be http/https accessible by the pulling Gitblit instance. That may require configuring port-forwarding on your router and/or opening ports on your firewall.
+•	`git.enableGitServlet` must be `true`, all Git clone and pull requests are handled through Gitblit's JGit servlet
+•	`federation.passphrase` must be non-empty
+•	The Gitblit origin instance must be `http/https` accessible by the pulling Gitblit instance. That may require configuring port-forwarding on your router and/or opening ports on your firewall.
 
 
 ## Configuring federation passphrase
@@ -36,10 +36,10 @@ This value can be anything you want: an integer, a sentence, an haiku, etc. You 
 The federation feature is completely disabled if your passphrase value is empty.
 
 **NOTE:**
-Changing your federation.passphrase will break any registrations you have established with other Gitblit instances.
+Changing your `federation.passphrase` will break any registrations you have established with other Gitblit instances.
 
 ## Pulling Gitblit Instance Requirement
-•	consider setting federation.allowProposals=true to facilitate the registration process from origin Gitblit instances
+•	consider setting ```java federation.allowProposals=true ``` to facilitate the registration process from origin Gitblit instances
 
 ## Controlling What Gets Pulled From Origin Instance
 •	After restarting your origin Gitblit instance, access federation page from user dropdown
@@ -48,7 +48,7 @@ Changing your federation.passphrase will break any registrations you have establ
 
 
 ## Controlling What Gets Pulled At Pulling Instance
-•	On your pulling Gitblit instance you can find # federation.example1.url  in gitblit.properties , Modify it based on your requirement
+•	On your pulling Gitblit instance you can find `# federation.example1.url`  in `gitblit.properties` , Modify it based on your requirement
 Eg:
 
 ```python
