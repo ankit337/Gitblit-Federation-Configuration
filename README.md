@@ -84,7 +84,7 @@ scp –r /source/folder/path /target/Folder/path
 
 ```python
 crontab –e 
-        (Add below line and save it)
-        0 18 * * * /root/scripts/scp.sh
+(Add below line and save it)
+0 18 * * * /root/scripts/scp.sh
  ```
 
