@@ -4,5 +4,83 @@ You can configure federation on Gitblit instance to keep then sync.One Gitblit i
 ## Table of Contents
 
 * [Requirements](#Requirements)
+* [About Gitblit Federation](#About-Gitblit-Federation)
 
 ## Requirements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## About Gitblit Federation
