@@ -51,7 +51,7 @@ Changing your federation.passphrase will break any registrations you have establ
 •	On your pulling Gitblit instance you can find # federation.example1.url  in gitblit.properties , Modify it based on your requirement
 Eg:
 
-
+```python
 federation.TestRepository.url = http://170.22.222.222/gitblit/
 federation.TestRepository.token = 7620b6101eaa884cb89dce0
 federation.TestRepository.frequency = 5 mins
@@ -60,7 +60,7 @@ federation.TestRepository.bare = true
 federation.TestRepository.mirror = true
 federation.TestRepository.exclude = *
 federation.TestRepository.include = TestRepository.git TestRepo.git
-
+```
 
 ## Federation Pull Registration Kyes
  Find the each registration keys [here]  (http://gitblit.com/federation.html#H21)
@@ -75,11 +75,16 @@ federation.TestRepository.include = TestRepository.git TestRepo.git
 
 •	Create sell script with command to copy whole folder structure. like below
 
+```python
 #!/bin/bash
 scp –r /source/folder/path /target/Folder/path
+```
 
 •	Add this script in to crone table with configurable time
-Eg:   crontab –e 
+
+```python
+crontab –e 
         (Add below line and save it)
         0 18 * * * /root/scripts/scp.sh
+ ```
 
