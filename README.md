@@ -39,7 +39,7 @@ The federation feature is completely disabled if your passphrase value is empty.
 Changing your `federation.passphrase` will break any registrations you have established with other Gitblit instances.
 
 ## Pulling Gitblit Instance Requirement
-•	consider setting ```java federation.allowProposals=true ``` to facilitate the registration process from origin Gitblit instances
+•	consider setting `federation.allowProposals=true` to facilitate the registration process from origin Gitblit instances
 
 ## Controlling What Gets Pulled From Origin Instance
 •	After restarting your origin Gitblit instance, access federation page from user dropdown
