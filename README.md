@@ -7,6 +7,74 @@ You can configure federation on Gitblit instance to keep then sync.One Gitblit i
 * [About Gitblit Federation](#About-Gitblit-Federation)
 
 ## Requirements
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+
+q
+q
+q
+q
+q
+q
+q
+
+q
+q
+q
+q
+q
+q
+
+q
+q
+q
+q
+q
+q
+q
+
+q
+q
+q
+q
+
+q
+q
+q
+q
+q
+q
+q
+q
+
+q
+q
+q
 
 
 
