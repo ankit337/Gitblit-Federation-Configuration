@@ -23,7 +23,9 @@ A Gitblit federation is a mechanism to clone repositories and keep them in sync 
 
 ## Origin Gitblit Instance Requirements
 •	`git.enableGitServlet` must be `true`, all Git clone and pull requests are handled through Gitblit's JGit servlet
+
 •	`federation.passphrase` must be non-empty
+
 •	The Gitblit origin instance must be `http/https` accessible by the pulling Gitblit instance. That may require configuring port-forwarding on your router and/or opening ports on your firewall.
 
 
@@ -43,7 +45,9 @@ Changing your `federation.passphrase` will break any registrations you have esta
 
 ## Controlling What Gets Pulled From Origin Instance
 •	After restarting your origin Gitblit instance, access federation page from user dropdown
+
 •	You can find different federation tokens on federation page, Note down any token based on what you want to allow to pull from this Instance
+
 •	Note down your http gitblit instance URL which you can access from your pulling gitblit instance, eg: http://111.111.111.111/gitblit
 
 
@@ -68,6 +72,7 @@ federation.TestRepository.include = TestRepository.git TestRepo.git
  
 ## Last Step to Sync Repository
 •	Restart your pulling instance. Wait for frequency time you have configured, you can find repository has been pulled from origin instance based on your configuration.
+
 •	On repository page you can see pulled repository under configured folder
 
 
