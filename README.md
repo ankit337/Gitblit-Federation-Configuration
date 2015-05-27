@@ -11,7 +11,7 @@ You can configure federation on Gitblit instance to keep then sync.One Gitblit i
 * [Controlling What Gets Pulled From Origin Instance](#controlling-what-gets-pulled-from-origin-instance)
 * [Controlling What Gets Pulled At Pulling Instance](#controlling-what-gets-pulled-at-pulling-instance)
 * [Federation Pull Registration Kyes](#federation-pull-registration-kyes)
-* [Last Step to Sync Repository](#last-step-to-sync-repository)
+* [Last Step To Sync Repository](#last-step-to-sync-repository)
 * [Copy Repository Using Cron Job](#copy-repository-using-cron-job)
 
 ## Requirements
@@ -70,7 +70,7 @@ federation.TestRepository.include = TestRepository.git TestRepo.git
  Find the each registration keys [here]  (http://gitblit.com/federation.html#H21)
  
  
-## Last Step to Sync Repository
+## Last Step To Sync Repository
 •	Restart your pulling instance. Wait for frequency time you have configured, you can find repository has been pulled from origin instance based on your configuration.
 
 •	On repository page you can see pulled repository under configured folder
