@@ -13,7 +13,7 @@ You can configure federation on Gitblit instance to keep then sync.One Gitblit i
 * [Federation Pull Registration Kyes](#federation-pull-registration-kyes)
 * [Last Step To Sync Repository](#last-step-to-sync-repository)
 * [Copy Repository Using Cron Job](#copy-repository-using-cron-job)
-* [GitBlit Groovy Push Script](#gitBlit-groovy-push-script)
+* [GitBlit Groovy Push Script](https://github.com/ankit337/GitBlit-groovy-Pushhook)
 
 ## Requirements
 •	Two standalone Gitblit server
