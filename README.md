@@ -19,10 +19,6 @@ You can configure federation on Gitblit instance to keep then sync.One Gitblit i
 * [Last Step To Sync Repository](#last-step-to-sync-repository)
 * [Copy Repository Using Cron Job](#copy-repository-using-cron-job)
  
-## GitBlit Groovy Push Script
-
-* [GitBlit Groovy Push Script](https://github.com/ankit337/GitBlit-groovy-Pushhook)
-
 ## Requirements
 •	Two standalone Gitblit server
 
@@ -101,3 +97,7 @@ crontab –e
 (Add below line and save it)
 0 18 * * * /root/scripts/scp.sh
  ```
+
+## GitBlit Groovy Push Script
+
+* [GitBlit Groovy Push Script](https://github.com/ankit337/GitBlit-groovy-Pushhook)
