@@ -1,12 +1,11 @@
-# Gitblit-Federation-Configuration
-You can configure federation on Gitblit instance to keep then sync.One Gitblit instance keep in sync with other instance.
-
 
 ## There are two ways to sync your reposittory 
 * PULL from Repository [Federation](#federation-steps)
 * PUSH to Repository [PUSH Groovy Script](#gitblit-groovy-push-script)
 
 ## Federation Steps
+# Gitblit-Federation-Configuration
+You can configure federation on Gitblit instance to keep then sync.One Gitblit instance keep in sync with other instance.
 
 * [Requirements](#requirements)
 * [About Gitblit Federation](#about-gitblit-federation)
