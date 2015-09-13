@@ -1,7 +1,12 @@
 # Gitblit-Federation-Configuration
 You can configure federation on Gitblit instance to keep then sync.One Gitblit instance keep in sync with other instance.
 
-## Table of Contents
+
+## There are two ways to sync your reposittory 
+* PULL from Repository [Federation](#federation-steps)
+* PUSH to Repository [PUSH Groovy Script](#gitblit-groovy-push-script)
+
+## Federation Steps
 
 * [Requirements](#requirements)
 * [About Gitblit Federation](#about-gitblit-federation)
@@ -13,6 +18,9 @@ You can configure federation on Gitblit instance to keep then sync.One Gitblit i
 * [Federation Pull Registration Kyes](#federation-pull-registration-kyes)
 * [Last Step To Sync Repository](#last-step-to-sync-repository)
 * [Copy Repository Using Cron Job](#copy-repository-using-cron-job)
+ 
+## GitBlit Groovy Push Script
+
 * [GitBlit Groovy Push Script](https://github.com/ankit337/GitBlit-groovy-Pushhook)
 
 ## Requirements
@@ -93,6 +101,3 @@ crontab –e
 (Add below line and save it)
 0 18 * * * /root/scripts/scp.sh
  ```
-
-## GitBlit Groovy Push Script
-
